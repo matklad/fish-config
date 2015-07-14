@@ -1,0 +1,6 @@
+balias gst 'git status'
+balias g 'git'
+balias gcm 'git checkout master'
+balias gup 'git pull --rebase'
+balias time '/usr/bin/time -p'
+balias gp 'git push'
