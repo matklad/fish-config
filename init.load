@@ -2,8 +2,8 @@ if not contains $fish_custom/functions $fish_function_path
   set fish_function_path $fish_custom/functions $fish_function_path
 end
 
-Theme 'jacaetevha'
 Plugin 'theme'
 Plugin 'balias'
+Theme 'jacaetevha'
 
 . $fish_custom/aliases.fish
