@@ -7,3 +7,8 @@ Plugin 'balias'
 Theme 'jacaetevha'
 
 . $fish_custom/aliases.fish
+
+status --is-interactive; and . (pyenv init -|psub)
+
+# OPAM configuration
+. /home/matklad/.opam/opam-init/init.fish > /dev/null ^ /dev/null or true
